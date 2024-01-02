@@ -1,0 +1,72 @@
+body {
+    background-color: #f3d05c;
+    display: grid;
+    align-items: center;
+    line-height: 1.6;
+    justify-content: center;
+    place-items: center;
+    min-height: 100vh; /* moved card center */
+    font-family: 'Figtree', sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .container-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    width: 80%;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2); /* horizontal vertical offset blur and color */
+    background-color: white;
+    padding: 20px;
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+    border-radius: 10px;
+  }
+  
+  .container-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  .mySvg{
+   
+    border-radius: 15px;
+    width: 100%;
+    height: 25%;
+  }
+.learning {
+  text-align: left;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+.highlight{
+  background-color: #f3d05c;
+  border-radius: 5px;
+}
+
+.pub{
+    padding: 5px;
+    font-weight: lighterk;
+    font-size: 18px;
+}
+
+.html{
+    font-size: 25px;
+    padding: 5px;
+    font-weight: bold;
+}
+.language{
+    font-weight: lighter;
+    color: rgb(146, 145, 145);
+}
+.attribution{
+    font-size: 10px;
+}
+.name{
+    padding: 10px;
+}
+/*font-family: 'DM Serif Display', serif;
+font-family: 'Figtree', sans-serif;*/
